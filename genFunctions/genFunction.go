@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/elmubarak/go_crud/connection"
-	studentModel "github.com/elmubarak/go_crud/model"
-	"github.com/elmubarak/go_crud/studentDao"
+	"github.com/elmubarak/go_server/connection"
+	studentModel "github.com/elmubarak/go_server/model"
+	"github.com/elmubarak/go_server/studentDao"
 	"github.com/julienschmidt/httprouter"
 )
 

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	conn "github.com/elmubarak/go_crud/connection"
+	conn "github.com/elmubarak/go_server/connection"
 )
 
 func FetchOneFromDb(id int64) (*sql.Rows, error) {

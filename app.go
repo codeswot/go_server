@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	genfunctions "github.com/elmubarak/go_crud/genFunctions"
+	genfunctions "github.com/elmubarak/go_server/genFunctions"
 	"github.com/julienschmidt/httprouter"
 	_ "github.com/mattn/go-sqlite3"
 )
