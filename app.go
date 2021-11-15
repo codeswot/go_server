@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	genfunctions "github.com/elmubarak/go_server/genFunctions"
+	genfunctions "github.com/elmubarak/go_server/routes"
 	"github.com/julienschmidt/httprouter"
-	_ "github.com/mattn/go-sqlite3"
 )
 
 func main() {
