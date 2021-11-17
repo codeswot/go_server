@@ -15,7 +15,10 @@ func init() {
 	HandleErr(err)
 	createTableQuery := `create table if not exists students(
 		id integer not null primary key autoincrement,
-		name text,
+		fName text,
+		lName text,
+		email text,
+		gender text,
 		age integer
 	)`
 

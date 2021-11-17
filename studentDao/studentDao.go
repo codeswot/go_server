@@ -21,8 +21,8 @@ func FetchAllFromDb() (*sql.Rows, error) {
 	return rows, err
 }
 
-func UpdateOneFromDb(name string, age int, id int64) (*sql.Rows, error) {
-	query := fmt.Sprintf("update students set name='%v', age='%v'  where id='%v'", name, age, id)
+func UpdateOneFromDb(id int64, fName string, lName string, email string, gender string, age int) (*sql.Rows, error) {
+	query := fmt.Sprintf("update students set fName='%v',lName='%v', gender = '%v', age='%v'  where id='%v'", fName, lName, gender, age, id)
 	rows, err := conn.Db.Query(query)
 	HandleErr(err)
 	return rows, err
